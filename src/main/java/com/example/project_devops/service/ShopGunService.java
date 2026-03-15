@@ -1,3 +1,4 @@
+
 package com.example.project_devops.service;
 
 
@@ -17,7 +18,7 @@ public class ShopGunService {
         this.repository = repository;
     }
 
-    public Iterable<ShopGun> getAllGuns() {
+    public Iterable<ShopGun> all() {
         return repository.findAll();
     }
 
